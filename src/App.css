@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.controls-window {
+  width: 300px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 0px 10px;
+  color: darkblue;
+  font-weight: 600;
+}
+
+.car-img {
+  height: 10px;
+  width: 50px;
+}
